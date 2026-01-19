@@ -1,1 +1,10 @@
 build/
+bin/
+out/
+CMakeCache.txt
+CMakeFiles/
+*.cmake
+Makefile
+.vscode/
+.idea/
+.DS_Store
