@@ -4,4 +4,5 @@ project(SEMB-2310)  # 这是你整个大课程的名字
 # 这里写子文件夹的名字
 add_subdirectory(lec1)
 add_subdirectory(lab1)
+add_subdirectory(lec2)
 # 以后每增加一个章节，就在这里多写一行
