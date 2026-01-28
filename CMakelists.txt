@@ -6,4 +6,5 @@ add_subdirectory(lec1)
 add_subdirectory(lab1)
 add_subdirectory(lec2)
 add_subdirectory(lab2)
+add_subdirectory(lec3)
 # 以后每增加一个章节，就在这里多写一行
