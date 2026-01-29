@@ -3,8 +3,8 @@ using namespace std;
 
 int main() {
 
-	int n = 10;
-	//#define SIZE 10; 把变量写死
+	// int n = 10;
+	#define SIZE 10; //把变量写死
 	int mark[SIZE];
 	for (int i=0;i<SIZE;i++){
 		cin>>mark[i];
