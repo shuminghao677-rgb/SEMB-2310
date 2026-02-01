@@ -1,10 +1,10 @@
 #include <iostream>
 using namespace std;
-
+#define SIZE 10 //把变量写死
+// int n = 10;
+//更现代的写法 用constexpr
+// constexpr int SIZE=10;
 int main() {
-
-	// int n = 10;
-	#define SIZE 10; //把变量写死
 	int mark[SIZE];
 	for (int i=0;i<SIZE;i++){
 		cin>>mark[i];

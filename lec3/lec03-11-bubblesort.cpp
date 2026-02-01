@@ -1,6 +1,8 @@
 #include <iostream>
 using namespace std;
-#define N 10 //超级全局广播
+constexpr int N=10;
+//相当于 把N写死 只能等于10
+// #define N 10  相当于define但是 constexpr 是更先进的表达
 
 int main(){
     int array[N];
