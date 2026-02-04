@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.10)
-project(lab3)  
+project(lec4)  
 
 set(CMAKE_CXX_STANDARD 17)
-add_executable(app_lab3 lab3练习3.cpp)
+add_executable(app_lec4 lec04-01-char.cpp)
