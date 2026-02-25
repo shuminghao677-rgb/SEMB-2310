@@ -1,14 +1,22 @@
 #include <iostream>
 using namespace std;
-#include <string>
+#include <string> //* 本身string 相当于一个类 class 里面有自己的默认构造函数 和 带参数的构造函数
 
 int main() {
 
-	string str1;
-	string str2("hello world");
+	// string str1; //声明字符串
+	// string str2("hello world"); //创建字符串
+	// string str3(str2); //复制字符串
+	// string str4(5, 'a'); //重复构造字符串
+	string str1("love");
+	string str2(3,'o');//这里重复构造只能是 字符
+
 	string str3(str2);
-	string str4(5, 'a');
-    
+	string str4; //用for循环实现重复字符串构造
+	for (int i=0;i<4;i++){
+		str4+=str1;
+	}
+
 	cout << "str1: " << str1 << endl;
 	cout << "str2: " << str2 << endl;
 	cout << "str3: " << str3 << endl;
