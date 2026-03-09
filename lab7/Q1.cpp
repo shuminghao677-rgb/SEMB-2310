@@ -40,3 +40,15 @@ int main(){
     p.paintcost();
     return 0;
 }
+
+/* 
+1.三层继承：Shape → Rectanguler → PaintCost，子类拥有所有基类的成员
+
+2.保护成员：width和height在Shape中是protected，子类中可以访问
+
+3.方法继承：PaintCost继承了Shape的set()、Rectanguler的area()和perimeter()
+
+4.新增功能：PaintCost添加自己的paintcost()方法，可访问继承来的width和height
+
+5.对象创建：用最底层的PaintCost创建对象，可以调用所有继承链上的方法
+*/
