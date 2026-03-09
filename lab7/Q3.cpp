@@ -23,7 +23,7 @@ int comparison(string s1,string s2){
         return 0;
     }
 }
-void swap(string &s1,string &s2){
+void swap(string &s1,string &s2){ //!这里进行引用传参 要改变原值
     string tmp;
     tmp=s1;
     s1=s2;
