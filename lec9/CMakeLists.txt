@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.10)
-project(as2)  
+project(lec8)  
 
 set(CMAKE_CXX_STANDARD 17)
-add_executable(app_as2 Q33.cpp)
+add_executable(app_lec9 lec09-06-equalsTo.cpp)
