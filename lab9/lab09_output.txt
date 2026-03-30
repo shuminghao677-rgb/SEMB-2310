@@ -1,0 +1,25 @@
+Student    1:
+Name:   Tom,
+Student ID:   024001,
+Tel:   3112345678
+
+Student    2:
+Name:   Lucy,
+Student ID:   024002,
+Tel:   3287654321
+
+Student    3:
+Name:   Jack,
+Student ID:   024003,
+Tel:   3311223344
+
+Student    4:
+Name:   Amy,
+Student ID:   024004,
+Tel:   3455667788
+
+Student    5:
+Name:   Mike,
+Student ID:   024005,
+Tel:   3599887766
+
